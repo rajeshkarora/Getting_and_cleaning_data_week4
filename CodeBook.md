@@ -1,26 +1,26 @@
-File with R code "run_analysis.R" performs the following steps:
+#File with R code "run_analysis.R" performs the following steps:
 
 1. Merging the train and the test sets to create one data set.
- a. Read train tables
- b. Read test tables
- c. Read feature vector
- d. Read activity labels
- e. Assign column names
- f. Merge all data in one set
+a. Read train tables
+b. Read test tables
+c. Read feature vector
+d. Read activity labels
+e. Assign column names
+f. Merge all data in one set
 
 
 2. Extracting measurement columns on the mean and standard deviation
- a. Read column names
- b. Create vector for defining ID, mean and standard deviation
- c. Create subset 
+a. Read column names
+b. Create vector for defining ID, mean and standard deviation
+c. Create subset 
 
 
 3. Use descriptive activity names to name the activities in the data set
 4. Label the data set
 
 5. Creating a tidy data set with the average of each variable for each activity and each subject
- a  create tidy data set
- b  Write tidy data set in txt file
+a  create tidy data set
+b  Write tidy data set in txt file
 
 
 The variables in the tidy data
